@@ -118,3 +118,4 @@ docker-compose down
 | GET | `/` | Info de l'environnement |
 | GET | `/health` | Vérification de santé |
 | POST | `/analyze` | Analyse un texte |
+# compareVirtualisationDocker
