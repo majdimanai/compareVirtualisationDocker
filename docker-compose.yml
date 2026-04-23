@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+
+ 
+  sentiment-docker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: sentiment_docker
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV_TYPE=docker
+      - ENV_NAME=Docker Container
+    restart: unless-stopped
+    networks:
+      - sentiment-net
+
+
+
+networks:
+  sentiment-net:
+    driver: bridge
