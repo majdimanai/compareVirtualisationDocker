@@ -1,3 +1,4 @@
+Projet réalisé par Manai Majdi , Mahroug Rayen et Riadh Chelbi
 # 🐳 SentimentIA — Docker vs VM
 
 Analyse de sentiment avec comparaison Docker ↔ VM en temps réel.
